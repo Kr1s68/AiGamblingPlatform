@@ -8,7 +8,7 @@ app.use(express.json());
 
 async function example(keyword) {
   const api = new ChatGPTAPI({
-    apiKey: "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",
+    apiKey: "...",
   });
 
   const res = await api.sendMessage(
